@@ -43,6 +43,10 @@
 		5BB9E9E01D18558C00D8E5E2 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9E9DF1D18558C00D8E5E2 /* ExtensionDelegate.swift */; };
 		5BB9E9E21D18558C00D8E5E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB9E9E11D18558C00D8E5E2 /* Assets.xcassets */; };
 		5BB9E9E61D18558C00D8E5E2 /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5BB9E9CC1D18558C00D8E5E2 /* Watch.app */; };
+		7A7AB2135DD8C54D10597411 /* Pods_Watch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3AF566872FF1040861E043 /* Pods_Watch_Extension.framework */; };
+		9951D61B0ACDD92F53C7FDF4 /* Pods_Search_GitHubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5BFBA44C06836733C58937 /* Pods_Search_GitHubUITests.framework */; };
+		B3FDA5FFF73DF37E1A49649F /* Pods_Search_GitHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA49F41C1B7AAF8E74B74DCC /* Pods_Search_GitHub.framework */; };
+		F50175AB5F5BACD7626BDEB0 /* Pods_Search_GitHubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5CDFE5E638A4574C07A7C7 /* Pods_Search_GitHubTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,8 +106,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1D5BFBA44C06836733C58937 /* Pods_Search_GitHubUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Search_GitHubUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47923BD27D1DF6C3ABA0EB9E /* Pods-Watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watch Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Watch Extension/Pods-Watch Extension.release.xcconfig"; sourceTree = "<group>"; };
 		4B26FE9DEE633A7A3084D332 /* Pods-Search GitHubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Search GitHubUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Search GitHubUITests/Pods-Search GitHubUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4E3AF566872FF1040861E043 /* Pods_Watch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Watch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53816EF414458D5A33EF4EE0 /* Pods-Search GitHubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Search GitHubTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Search GitHubTests/Pods-Search GitHubTests.debug.xcconfig"; sourceTree = "<group>"; };
 		578A1D68E5317250D4D9FDDA /* Pods-Search GitHubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Search GitHubTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Search GitHubTests/Pods-Search GitHubTests.release.xcconfig"; sourceTree = "<group>"; };
 		5848F8BFC447F67B54DF30E3 /* Pods-Search GitHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Search GitHub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Search GitHub/Pods-Search GitHub.debug.xcconfig"; sourceTree = "<group>"; };
@@ -153,6 +159,8 @@
 		81AC46A4BC9294681FCDB3D0 /* Pods-Search GitHubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Search GitHubUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Search GitHubUITests/Pods-Search GitHubUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E419CDC2333351806E1D84B /* Pods-Watch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watch Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Watch Extension/Pods-Watch Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		CBFE5BC852D8C9BCD0F6439A /* Pods-Search GitHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Search GitHub.release.xcconfig"; path = "Pods/Target Support Files/Pods-Search GitHub/Pods-Search GitHub.release.xcconfig"; sourceTree = "<group>"; };
+		DA49F41C1B7AAF8E74B74DCC /* Pods_Search_GitHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Search_GitHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5CDFE5E638A4574C07A7C7 /* Pods_Search_GitHubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Search_GitHubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BB9E9C91D17C2F000D8E5E2 /* AudioToolbox.framework in Frameworks */,
+				B3FDA5FFF73DF37E1A49649F /* Pods_Search_GitHub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +177,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F50175AB5F5BACD7626BDEB0 /* Pods_Search_GitHubTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +185,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9951D61B0ACDD92F53C7FDF4 /* Pods_Search_GitHubUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +193,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A7AB2135DD8C54D10597411 /* Pods_Watch_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +375,10 @@
 			isa = PBXGroup;
 			children = (
 				5BB9E9C81D17C2F000D8E5E2 /* AudioToolbox.framework */,
+				DA49F41C1B7AAF8E74B74DCC /* Pods_Search_GitHub.framework */,
+				EE5CDFE5E638A4574C07A7C7 /* Pods_Search_GitHubTests.framework */,
+				1D5BFBA44C06836733C58937 /* Pods_Search_GitHubUITests.framework */,
+				4E3AF566872FF1040861E043 /* Pods_Watch_Extension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

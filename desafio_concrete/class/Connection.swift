@@ -11,7 +11,7 @@ import SwiftyJSON
 import WatchConnectivity
 
 class Connection: NSObject, WCSessionDelegate {
-    static let searchQuery = "language:Java"
+    static let searchQuery = "language:Swift"
     
     static let urlRepository = "https://api.github.com/search/repositories?q=\(searchQuery)&sort=stars&page=%d" //page
     
