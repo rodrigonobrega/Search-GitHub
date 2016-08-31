@@ -11,8 +11,9 @@ import SwiftyJSON
 import WatchConnectivity
 
 class Connection: NSObject, WCSessionDelegate {
+    static let searchQuery = "language:Java"
     
-    static let urlRepository = "https://api.github.com/search/repositories?q=language:Java&sort=stars&page=%d" //page
+    static let urlRepository = "https://api.github.com/search/repositories?q=\(searchQuery)&sort=stars&page=%d" //page
     
     class func loadRepository(page:Int, onSuccess: (retorno: ItemsRepository) -> Void, onError: (NSError) -> Void) {
         if !Util.isConnectToNetwork() {
